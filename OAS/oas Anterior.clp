@@ -152,7 +152,7 @@
                 (bind ?sistemasOperativos (readline))
                 (printout t "4 - Matematica discreta: ")
                 (bind ?matematicaDiscreta (readline))
-                (printout t "5 - Espacios virtuales de trabajo colavorativo: ")
+                (printout t "5 - Espacios virtuales de trabajo colaborativo: ")
                 (bind ?espaciosVirtualesDeTrabajoColaborativo (readline))
 
 
