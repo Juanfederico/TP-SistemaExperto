@@ -37,14 +37,14 @@
 
         (printout t "Seleccione su materia proferida del tercer cuatrimestre:" crlf)         
                 (printout t "   1 - Ingenieria de Software 1 " crlf)
-                (printout t "   2 - Introduccion a las bases de datos" crlf)
+                (printout t "   2 - Introduccion a las Bases de Datos" crlf)
                 (printout t "   3 - Algoritmos y estructuras de datos" crlf)
                 (printout t "   4 - Matematica 3" crlf)
                 (bind ?materiaElegida (read))
                 (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Ingenieria de Software 1") (profesor "Hernan Amatriain") (cuatrimestre 3))))
-        (if (= ?materiaElegida 2) then (assert (materia (nombre "Introduccion a las bases de datos") (profesor "Federico Ribeiro") (cuatrimestre 3))))
+        (if (= ?materiaElegida 2) then (assert (materia (nombre "Introduccion a las Bases de Datos") (profesor "Federico Ribeiro") (cuatrimestre 3))))
         (if (= ?materiaElegida 3) then (assert (materia (nombre "Algoritmos y estructuras de datos") (profesor "Diego Azcurra") (cuatrimestre 3))))
         (if (= ?materiaElegida 4) then (assert (materia (nombre "Matematica 3") (profesor "Jose Vazquez") (cuatrimestre 3))))
 
@@ -72,24 +72,24 @@
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Programacion concurrente") (profesor "Hernan Merlino") (cuatrimestre 5))))
         (if (= ?materiaElegida 2) then (assert (materia (nombre "Ingenieria de Software 2") (profesor "Eduardo Diez") (cuatrimestre 5) )))
         (if (= ?materiaElegida 3) then (assert (materia (nombre "Orientacion a objetos 2") (profesor "Alejandra Vranic") (cuatrimestre 5))))
-        (if (= ?materiaElegida 4) then (assert (materia (nombre "Conceptos y lenguajes de paradigmas de programacion") (profesor "Hernan Merlino") (cuatrimestre 5))))
+        (if (= ?materiaElegida 4) then (assert (materia (nombre "Conceptos y paradigmas de lenguajes de programacion") (profesor "Hernan Merlino") (cuatrimestre 5))))
 
         (printout t "Seleccione su materia preferida del sexto cuatrimestre:" crlf)         
                 (printout t "   1 - Sistemas y organizaciones" crlf)
-                (printout t "   2 - Bases de datos 1" crlf)
+                (printout t "   2 - Bases de Datos 1" crlf)
                 (printout t "   3 - Proyecto de Software" crlf)
                 (printout t "   4 - Redes y comunicaciones" crlf)
                 (bind ?materiaElegida (read))
                 (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Sistemas y organizaciones") (profesor "Ricardo Lelli") (cuatrimestre 6))))
-        (if (= ?materiaElegida 2) then (assert (materia (nombre "Bases de datos 1") (profesor "Federico Ribeiro") (cuatrimestre 6) )))
+        (if (= ?materiaElegida 2) then (assert (materia (nombre "Bases de Datos 1") (profesor "Federico Ribeiro") (cuatrimestre 6) )))
         (if (= ?materiaElegida 3) then (assert (materia (nombre "Proyecto de Software") (profesor "Dario Rodriguez") (cuatrimestre 6))))
         (if (= ?materiaElegida 4) then (assert (materia (nombre "Redes y comunicaciones") (profesor "Diego Azcurra") (cuatrimestre 6))))
 
         (printout t "Seleccione su materia preferida del septimo cuatrimestre:" crlf)         
                 (printout t "   1 - Ingenieria de Software 3" crlf)
-                (printout t "   2 - Bases de datos 2" crlf)
+                (printout t "   2 - Bases de Datos 2" crlf)
                 (printout t "   3 - Sistemas operativos" crlf)
                 (printout t "   4 - Matematica discreta" crlf)
                 (printout t "   5 - Espacios virtuales de trabajo colaborativo" crlf)
@@ -97,10 +97,10 @@
                 (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Ingenieria de Software 3") (profesor "Sebastian Martins") (cuatrimestre 7))))
-        (if (= ?materiaElegida 2) then (assert (materia (nombre "Bases de datos 2") (profesor "Federico Ribeiro") (cuatrimestre 7))))
+        (if (= ?materiaElegida 2) then (assert (materia (nombre "Bases de Datos 2") (profesor "Federico Ribeiro") (cuatrimestre 7))))
         (if (= ?materiaElegida 3) then (assert (materia (nombre "Sistemas operativos") (profesor "Pablo Pytel") (cuatrimestre 7))))
         (if (= ?materiaElegida 4) then (assert (materia (nombre "Matematica discreta") (profesor "Laura Loidi") (cuatrimestre 7))))
-        (if (= ?materiaElegida 5) then (assert (materia (nombre "Espacios virtuales de trabajo colavorativo") (profesor "Dario Rodriguez") (cuatrimestre 7) )))
+        (if (= ?materiaElegida 5) then (assert (materia (nombre "Espacios virtuales de trabajo colaborativo") (profesor "Dario Rodriguez") (cuatrimestre 7) )))
 
         (printout t "Seleccione su materia preferida del octavo cuatrimestre:" crlf)         
                 (printout t "   1 - Fundamentos de teoria de la computacion" crlf)
@@ -112,7 +112,7 @@
                 (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Fundamentos de teoria de la computacion") (profesor "Hernan Amatriain") (cuatrimestre 8))))
-        (if (= ?materiaElegida 2) then (assert (materia (nombre "Desarrollo de Software en Sistemas Distribuidos") (profesor "Diego Azcurra") (cuatrimestre 8)
+        (if (= ?materiaElegida 2) then (assert (materia (nombre "Desarrollo de Software en Sistemas Distribuidos") (profesor "Diego Azcurra") (cuatrimestre 8))))
         (if (= ?materiaElegida 3) then (assert (materia (nombre "Sistemas basados en conocimiento") (profesor "Hernan Amatriain") (cuatrimestre 8))))
         (if (= ?materiaElegida 4) then (assert (materia (nombre "Sistemas embebidos") (profesor "Diego Azcurra") (cuatrimestre 8))))
         (if (= ?materiaElegida 5) then (assert (materia (nombre "Prueba de Software") (profesor "Eduardo Diez") (cuatrimestre 8))))
@@ -124,19 +124,97 @@
                 (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Politica y gestion de la ciencia") (profesor "Ricardo Lelli") (cuatrimestre 9))))
-        (if (= ?materiaElegida 2) then (assert (materia (nombre "Aspectos legales y profesionales de la informatica") (profesor "Antonio Martino") (cuatrimestre 9)
+        (if (= ?materiaElegida 2) then (assert (materia (nombre "Aspectos legales y profesionales de la informatica") (profesor "Antonio Martino") (cuatrimestre 9))))
 
         (printout t "Seleccione su materia preferida del decimo cuatrimestre:" crlf)         
                 (printout t "   1 - Ingenieria de Software empirica" crlf)
                 (printout t "   2 - Explotacion de informacion" crlf)
+                (bind ?materiaElegida (read))
+                (printout t "ingresaste:") (printout t ?materiaElegida crlf)
 
         (if (= ?materiaElegida 1) then (assert (materia (nombre "Ingenieria de Software empirica") (profesor "Hernan Amatriain") (cuatrimestre 10))))
         (if (= ?materiaElegida 2) then (assert (materia (nombre "Explotacion de informacion") (profesor "Sebastian Martins") (cuatrimestre 10))))
 )
 
-(defrule predileccion_desarrollo ""
+(defrule predileccion_desarrollo_1 ""
         (exists (materia (nombre "Programacion de computadoras")))
-        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 1")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_2 ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_3 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 1")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_4 ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 1")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_5 ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 1")))
+        (exists (materia (nombre "Programacion concurrente")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_6 ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_7 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_8 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_9 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        (exists (materia (nombre "Proyecto de Software")))
         =>
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
