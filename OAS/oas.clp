@@ -142,6 +142,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_1" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
@@ -151,6 +152,7 @@
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_2" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
@@ -160,6 +162,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_3" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
@@ -169,6 +172,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_4" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
@@ -178,18 +182,35 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Programacion concurrente")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_5" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
-
-(defrule predileccion_desarrollo_6 ""
+;cambiada
+(defrule predileccion_desarrollo_6a ""
         (exists (materia (nombre "Programacion de computadoras")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Introduccion a los sistemas operativos")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_6a" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
+;cambiada
+(defrule predileccion_desarrollo_6b ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_6b" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+
 
 (defrule predileccion_desarrollo_7 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
@@ -198,6 +219,7 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_7" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
@@ -207,14 +229,558 @@
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_8" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
 (defrule predileccion_desarrollo_9 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Proyecto de Software")))
         =>
+        (printout t "Regla activada: predileccion_desarrollo_9" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_10 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Programacion concurrente")))
+        (exists (materia (nombre "Explotacion de informacion")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_10" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_11 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Explotacion de informacion")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_11" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_12 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Programacion concurrente")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_12" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_13 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_13" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_14 ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Programacion concurrente")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_14" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_15 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_15" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_ciencias_exactas_1 ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Matematica discreta")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_1" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_2a ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_2a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_2b ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Bases de Datos 2")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_2b" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_2c ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Sistemas operativos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_2c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+
+;cambiada
+(defrule predileccion_ciencias_exactas_2d ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_2d" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+
+;cambiada
+(defrule predileccion_ciencias_exactas_3 ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_3" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4a ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4b ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4b" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4c ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4d ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4d" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4e ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4e" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4f ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4f" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4g ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4g" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4h ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4h" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4i ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4i" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4j ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4k" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4k ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4k" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_4l ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_4l" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_5a ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_5a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_5b ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_5b" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_5c ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_5c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_7a ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_7a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_7b ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_7b" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_7c ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_7c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_8a ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_8a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_8b ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Introduccion a las bases de datos")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_8b" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+(defrule predileccion_ciencias_exactas_8c ""
+        (exists (materia (nombre "Matematica 1")))
+        (exists (materia (nombre "Arquitectura de computadoras")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_8c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9a ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9a" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9c ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9c" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9d ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9d" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9e ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9e" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9f ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9f" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9g ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas basados en conocimiento")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9g" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9h ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9h" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9i ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9i" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9j ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9j" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9k ""
+        (exists (materia (nombre "Programacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9k" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9l ""
+        (exists (materia (nombre "Organizacion de computadoras")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9l" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+;cambiada
+(defrule predileccion_ciencias_exactas_9m ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Probabilidad y estadistica")))
+        (exists (materia (nombre "Matematica discreta")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_ciencias_exactas_9m" crlf)
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
 )
