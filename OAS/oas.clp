@@ -186,7 +186,7 @@
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 ;cambiada
-(defrule predileccion_desarrollo_6a ""
+(defrule predileccion_desarrollo_6 ""
         (exists (materia (nombre "Programacion de computadoras")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
@@ -194,11 +194,11 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_6a" crlf)
+        (printout t "Regla activada: predileccion_desarrollo_6" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 ;cambiada
-(defrule predileccion_desarrollo_6b ""
+(defrule predileccion_desarrollo_7 ""
         (exists (materia (nombre "Programacion de computadoras")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
@@ -206,28 +206,18 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_6b" crlf)
+        (printout t "Regla activada: predileccion_desarrollo_7" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
 
 
 
-(defrule predileccion_desarrollo_7 ""
+(defrule predileccion_desarrollo_8 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
-        =>
-        (printout t "Regla activada: predileccion_desarrollo_7" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
-)
-
-(defrule predileccion_desarrollo_8 ""
-        (exists (materia (nombre "Expresion de problemas y algoritmos")))
-        (exists (materia (nombre "Algoritmos y estructuras de datos")))
-        (exists (materia (nombre "Seminario de lenguajes")))
-        (exists (materia (nombre "Orientacion a objetos 2")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_8" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
@@ -235,10 +225,9 @@
 
 (defrule predileccion_desarrollo_9 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
-        (exists (materia (nombre "Matematica 2")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
-        (exists (materia (nombre "Proyecto de Software")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_9" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
@@ -246,9 +235,10 @@
 
 (defrule predileccion_desarrollo_10 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Seminario de lenguajes")))
-        (exists (materia (nombre "Programacion concurrente")))
-        (exists (materia (nombre "Explotacion de informacion")))
+        (exists (materia (nombre "Orientacion a objetos 2")))
+        (exists (materia (nombre "Proyecto de Software")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_10" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
@@ -257,7 +247,7 @@
 (defrule predileccion_desarrollo_11 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
         (exists (materia (nombre "Seminario de lenguajes")))
-        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_11" crlf)
@@ -266,10 +256,9 @@
 
 (defrule predileccion_desarrollo_12 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
-        (exists (materia (nombre "Algoritmos y estructuras de datos")))
         (exists (materia (nombre "Seminario de lenguajes")))
-        (exists (materia (nombre "Programacion concurrente")))
-        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Explotacion de informacion")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_12" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
@@ -279,7 +268,7 @@
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
         (exists (materia (nombre "Seminario de lenguajes")))
-        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
         (printout t "Regla activada: predileccion_desarrollo_13" crlf)
@@ -287,15 +276,35 @@
 )
 
 (defrule predileccion_desarrollo_14 ""
+        (exists (materia (nombre "Expresion de problemas y algoritmos")))
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Seminario de lenguajes")))
+        (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
+        (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
+        =>
+        (printout t "Regla activada: predileccion_desarrollo_14" crlf)
+        (printout t "Su rama predilecta es: Desarrollo" crlf)
+)
+
+(defrule predileccion_desarrollo_15 ""
         (exists (materia (nombre "Programacion de computadoras")))
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_14" crlf)
+        (printout t "Regla activada: predileccion_desarrollo_15" crlf)
         (printout t "Su rama predilecta es: Desarrollo" crlf)
 )
+
+
+
+
+
+
+
+
+
 
 (defrule predileccion_desarrollo_15 ""
         (exists (materia (nombre "Expresion de problemas y algoritmos")))
