@@ -795,8 +795,8 @@
 (defrule predileccion_hardware_1 ""
         (exists (materia (nombre "Organizacion de computadoras")))
         (exists (materia (nombre "Arquitectura de computadoras")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_1" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -817,8 +817,8 @@
         (exists (materia (nombre "Programacion de computadoras")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Redes y comunicaciones")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_3" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -828,8 +828,8 @@
         (exists (materia (nombre "Matematica 1")))
         (exists (materia (nombre "Arquitectura de computadoras")))
         (exists (materia (nombre "Redes y comunicaciones")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_4" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -839,8 +839,8 @@
         (exists (materia (nombre "Organizacion de computadoras")))
         (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Introduccion a los sistemas operativos")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_5" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -862,8 +862,8 @@
         (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Introduccion a los sistemas operativos")))
         (exists (materia (nombre "Redes y comunicaciones")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_7" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -874,8 +874,8 @@
         (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Introduccion a los sistemas operativos")))
         (exists (materia (nombre "Redes y comunicaciones")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_8" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
@@ -886,8 +886,8 @@
         (exists (materia (nombre "Matematica 2")))
         (exists (materia (nombre "Introduccion a los sistemas operativos")))
         (exists (materia (nombre "Redes y comunicaciones")))
-        (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
+        (exists (materia (nombre "Sistemas embebidos")))
         =>
         (printout t "Regla activada: predileccion_hardware_9" crlf)
         (printout t "Su rama predilecta es: Hardware" crlf)
