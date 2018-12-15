@@ -1,0 +1,7 @@
+14-12 (Juan Federico): Te explico los cambios que hice por las dudas para que no nos pisemos con las tareas.
+- En el archivo "oas2.clp" cambie las reglas de "Ciencias exactas" que tenian una letra (ej: 4d, 4e, 4f, etc) por (9, 10, 11, etc) y a las que seguian una vez terminadas las letras tambien les aumente el numero. Es decir, de las documentadas en adelante le fui incrementando 1 al numero de regla, asi hasta el final.
+- Cabe aclarar que "oas2.clp" es "oas.clp" duplicado pero aplicando los cambios del punto anterior, por las dudas para tener un backup de la version vieja por si queres ordenarlos de otra manera.
+- Además en "oas2.clp" agregué las reglas de Hardware, Bases de datos e Inteligencia artificial (faltaria solamente Gestion de proyectos)
+- También en "oas2.clp" borre la regla 2 de "Bases de datos" porque se pisaba con la primera, de manera que ahora quedaron 5 reglas en vez de 6. La regla 3 paso a ser la 2, la 4 paso a ser la 3, y asi sucesivamente. No va a ser problema tener una menos porque igual agregamos muchas en las otras ramas, pero hay que modificarlo en la docu.
+
+Lo que tendrias que hacer con la parte de codigo es revisar si te sirve como ordene las reglas de "Ciencias exactas" en "oas2.clp". Si estan bien mas alla de tenerlas en la docu borremos el archivo "oas.clp" ya que no serviria para nada. Si queres hacer algun cambio manteniendo "oas.clp", no borres "oas2.clp", porque tiene las reglas de las otras ramas cargadas y ahi ya nos ahorramos trabajo. Creo que eso es todo :P
