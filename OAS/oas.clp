@@ -974,3 +974,293 @@
         (printout t "Regla activada: predileccion_gestion_1" crlf)
         (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
 )
+
+(defrule predileccion_gestion_2 ""
+        (exists (materia (nombre "Algoritmos y estructuras de datos")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Proyecto de Software")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_2" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_3 ""
+        (exists (materia (nombre "Introduccion a las Bases de Datos")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Proyecto de Software")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_3" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_4 ""
+        (exists (materia (nombre "Matematica 3")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Proyecto de Software")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_4" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_5 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Proyecto de Software")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Prueba de Software")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_5" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_6 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Sistemas y Organizaciones")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_6" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_7 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de Datos 1")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_7" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_8 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_8" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_9 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Sistemas y organizaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_9" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_10 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_10" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_11 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Prueba de Software")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_11" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_12 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_12" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_13 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Desarollo de Software en sistemas distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_13" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_14 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_14" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_15 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_15" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_16 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_16" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_17 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Ingenieria de Software 3")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_17" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_18 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_18" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_19 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_19" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_20 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_20" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_21 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_21" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_22 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_22" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_23 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Redes y comunicaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_23" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_24 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Sistemas y organizaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_24" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_25 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Sistemas y organizaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Fundamentos de teoria de la computacion")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_25" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule predileccion_gestion_26 ""
+        (exists (materia (nombre "Ingenieria de Software 1")))
+        (exists (materia (nombre "Ingenieria de Software 2")))
+        (exists (materia (nombre "Sistemas y organizaciones")))
+        (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
+        (exists (materia (nombre "Sistemas embebidos")))
+        (exists (materia (nombre "Ingenieria de Software empirica")))
+        =>
+        (printout t "Regla activada: predileccion_gestion_26" crlf)
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
