@@ -144,8 +144,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_1" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_2 ""
@@ -154,8 +153,7 @@
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_2" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_3 ""
@@ -164,8 +162,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_3" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_4 ""
@@ -174,8 +171,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_4" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_5 ""
@@ -184,8 +180,7 @@
         (exists (materia (nombre "Orientacion a objetos 1")))
         (exists (materia (nombre "Programacion concurrente")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_5" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 ;cambiada
 (defrule predileccion_desarrollo_6 ""
@@ -196,8 +191,7 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_6" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 ;cambiada
 (defrule predileccion_desarrollo_7 ""
@@ -208,8 +202,7 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_7" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 
@@ -221,8 +214,7 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_8" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_9 ""
@@ -231,8 +223,7 @@
         (exists (materia (nombre "Seminario de lenguajes")))
         (exists (materia (nombre "Orientacion a objetos 2")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_9" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_10 ""
@@ -242,8 +233,7 @@
         (exists (materia (nombre "Orientacion a objetos 2")))
         (exists (materia (nombre "Proyecto de Software")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_10" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_11 ""
@@ -252,8 +242,7 @@
         (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_11" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_12 ""
@@ -262,8 +251,7 @@
         (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_12" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_13 ""
@@ -273,8 +261,7 @@
         (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_13" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_14 ""
@@ -284,8 +271,7 @@
         (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_14" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_15 ""
@@ -295,8 +281,7 @@
         (exists (materia (nombre "Programacion concurrente")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_15" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 (defrule predileccion_desarrollo_16 ""
@@ -306,8 +291,7 @@
         (exists (materia (nombre "Conceptos y paradigmas de lenguajes de programacion")))
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_desarrollo_16" crlf)
-        (printout t "Su rama predilecta es: Desarrollo" crlf)
+        (assert (rama (numero 1) (nombre "Desarrollo de Software") (descripcion "Tecnologias de programacion, analisis y desarrollo de algoritmos")))
 )
 
 ;----------------------------------------------CIENCIAS EXACTAS----------------------------------------------
@@ -318,8 +302,6 @@
         (exists (materia (nombre "Matematica 3")))
         (exists (materia (nombre "Matematica discreta")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_1" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
         (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
@@ -330,8 +312,7 @@
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_2" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_3 ""
@@ -341,8 +322,7 @@
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Bases de Datos 2")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_3" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_4 ""
@@ -352,8 +332,7 @@
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Sistemas operativos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_4" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_5 ""
@@ -363,8 +342,7 @@
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_5" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_6 ""
@@ -374,8 +352,7 @@
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Matematica discreta")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_6" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_7 ""
@@ -387,8 +364,7 @@
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_7" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_8 ""
@@ -400,8 +376,7 @@
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_8" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 
@@ -414,8 +389,7 @@
         (exists (materia (nombre "Desarrollo de Software en Sistemas Distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_9" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_10 ""
@@ -427,8 +401,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_10" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_11 ""
@@ -440,8 +413,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_11" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_12 ""
@@ -453,8 +425,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_12" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_13 ""
@@ -466,8 +437,7 @@
         (exists (materia (nombre "Prueba de Software")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_13" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_14 ""
@@ -479,8 +449,7 @@
         (exists (materia (nombre "Prueba de Software")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_14" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_15 ""
@@ -492,8 +461,7 @@
         (exists (materia (nombre "Prueba de Software")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_15" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_16 ""
@@ -505,8 +473,7 @@
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_16" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_17 ""
@@ -518,8 +485,7 @@
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_17" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_18 ""
@@ -531,8 +497,7 @@
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_18" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_19 ""
@@ -543,8 +508,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_19" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_20 ""
@@ -555,8 +519,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_20" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_21 ""
@@ -567,8 +530,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_21" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_22 ""
@@ -579,8 +541,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_22" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_23 ""
@@ -591,8 +552,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_23" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_24 ""
@@ -603,8 +563,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_24" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_25 ""
@@ -616,8 +575,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_25" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_26 ""
@@ -629,8 +587,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_26" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_27 ""
@@ -642,8 +599,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_27" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_28 ""
@@ -654,8 +610,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_28" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_29 ""
@@ -666,8 +621,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_29" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_30 ""
@@ -678,8 +632,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Desarrollo de Software en Sitemas Distribuidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_30" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_31 ""
@@ -690,8 +643,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_31" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_32 ""
@@ -702,8 +654,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_32" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_33 ""
@@ -714,8 +665,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_33" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_34 ""
@@ -726,8 +676,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_34" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_35 ""
@@ -738,8 +687,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_35" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_36 ""
@@ -750,8 +698,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_36" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_37 ""
@@ -762,8 +709,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_37" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 ;cambiada
 (defrule predileccion_ciencias_exactas_38 ""
@@ -774,8 +720,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_38" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 ;cambiada
 (defrule predileccion_ciencias_exactas_39 ""
@@ -786,8 +731,7 @@
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_ciencias_exactas_39" crlf)
-        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 
@@ -799,8 +743,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_1" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_2 ""
@@ -810,8 +753,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_2" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_3 ""
@@ -821,8 +763,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_3" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_4 ""
@@ -832,8 +773,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_4" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_5 ""
@@ -843,8 +783,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_5" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_6 ""
@@ -854,8 +793,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Sistemas operativos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_6" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_7 ""
@@ -866,8 +804,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_7" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_8 ""
@@ -878,8 +815,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_8" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 (defrule predileccion_hardware_9 ""
@@ -890,8 +826,7 @@
         (exists (materia (nombre "Sistemas operativos")))
         (exists (materia (nombre "Sistemas embebidos")))
         =>
-        (printout t "Regla activada: predileccion_hardware_9" crlf)
-        (printout t "Su rama predilecta es: Hardware" crlf)
+        (assert (rama (numero 3) (nombre "Hardware") (descripcion "Componentes fisicos y de bajo nivel relacionados con los ordenadores")))
 )
 
 ;----------------------------------------------BASES DE DATOS----------------------------------------------
@@ -901,8 +836,7 @@
         (exists (materia (nombre "Bases de datos 1")))
         (exists (materia (nombre "Bases de datos 2")))
         =>
-        (printout t "Regla activada: predileccion_bases_de_datos_1" crlf)
-        (printout t "Su rama predilecta es: Bases de datos" crlf)
+        (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 (defrule predileccion_bases_de_datos_2 ""
@@ -911,8 +845,7 @@
         (exists (materia (nombre "Bases de datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_bases_de_datos_2" crlf)
-        (printout t "Su rama predilecta es: Bases de datos" crlf)
+        (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 (defrule predileccion_bases_de_datos_3 ""
@@ -921,8 +854,7 @@
         (exists (materia (nombre "Bases de datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_bases_de_datos_3" crlf)
-        (printout t "Su rama predilecta es: Bases de datos" crlf)
+        (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 (defrule predileccion_bases_de_datos_4 ""
@@ -931,8 +863,7 @@
         (exists (materia (nombre "Bases de datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_bases_de_datos_4" crlf)
-        (printout t "Su rama predilecta es: Bases de datos" crlf)
+        (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 (defrule predileccion_bases_de_datos_5 ""
@@ -941,8 +872,7 @@
         (exists (materia (nombre "Bases de datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
-        (printout t "Regla activada: predileccion_bases_de_datos_5" crlf)
-        (printout t "Su rama predilecta es: Bases de datos" crlf)
+        (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 ;----------------------------------------------INTELIGENCIA ARTIFICIAL----------------------------------------------
@@ -951,8 +881,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Sistemas basados en conocimiento")))
         =>
-        (printout t "Regla activada: predileccion_inteligencia_artificial_1" crlf)
-        (printout t "Su rama predilecta es: Inteligencia artificial" crlf)
+        (assert (rama (numero 5) (nombre "Inteligencia artificial") (descripcion "Algoritmos de aprendizaje y razonamiento automatizado")))
 )
 
 (defrule predileccion_inteligencia_artificial_2 ""
@@ -960,8 +889,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         =>
-        (printout t "Regla activada: predileccion_inteligencia_artificial_2" crlf)
-        (printout t "Su rama predilecta es: Inteligencia artificial" crlf)
+        (assert (rama (numero 5) (nombre "Inteligencia artificial") (descripcion "Algoritmos de aprendizaje y razonamiento automatizado")))
 )
 
 ;----------------------------------------------GESTION DE PROYECTOS----------------------------------------------
@@ -972,8 +900,7 @@
         (exists (materia (nombre "Proyecto de Software")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         =>
-        (printout t "Regla activada: predileccion_gestion_1" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_2 ""
@@ -983,8 +910,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_2" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_3 ""
@@ -994,8 +920,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_3" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_4 ""
@@ -1005,8 +930,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_4" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_5 ""
@@ -1017,8 +941,7 @@
         (exists (materia (nombre "Prueba de Software")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_5" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_6 ""
@@ -1027,8 +950,7 @@
         (exists (materia (nombre "Sistemas y Organizaciones")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         =>
-        (printout t "Regla activada: predileccion_gestion_6" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_7 ""
@@ -1038,8 +960,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_7" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_8 ""
@@ -1049,8 +970,7 @@
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_8" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_9 ""
@@ -1059,8 +979,7 @@
         (exists (materia (nombre "Sistemas y organizaciones")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         =>
-        (printout t "Regla activada: predileccion_gestion_9" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_10 ""
@@ -1070,8 +989,7 @@
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_10" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_11 ""
@@ -1081,8 +999,7 @@
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Prueba de Software")))
         =>
-        (printout t "Regla activada: predileccion_gestion_11" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_12 ""
@@ -1093,8 +1010,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_12" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_13 ""
@@ -1105,8 +1021,7 @@
         (exists (materia (nombre "Desarollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_13" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_14 ""
@@ -1117,8 +1032,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_14" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_15 ""
@@ -1129,8 +1043,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_15" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_16 ""
@@ -1141,8 +1054,7 @@
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_16" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_17 ""
@@ -1153,8 +1065,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_17" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_18 ""
@@ -1165,8 +1076,7 @@
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_18" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_19 ""
@@ -1177,8 +1087,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_19" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_20 ""
@@ -1189,8 +1098,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_20" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_21 ""
@@ -1201,8 +1109,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_21" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_22 ""
@@ -1213,8 +1120,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_22" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_23 ""
@@ -1225,8 +1131,7 @@
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_23" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_24 ""
@@ -1237,8 +1142,7 @@
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_24" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_25 ""
@@ -1249,8 +1153,7 @@
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_25" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 (defrule predileccion_gestion_26 ""
@@ -1261,8 +1164,7 @@
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
         =>
-        (printout t "Regla activada: predileccion_gestion_26" crlf)
-        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+        (assert (rama (numero 6) (nombre "Gestion de proyectos") (descripcion "Planificacion, orientacion y seguimiento de proyectos de principio a fin")))
 )
 
 ;----------------------------------------------DISPARADOR DE ORIENTACIONES----------------------------------------------
