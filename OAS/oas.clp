@@ -320,6 +320,7 @@
         =>
         (printout t "Regla activada: predileccion_ciencias_exactas_1" crlf)
         (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+        (assert (rama (numero 2) (nombre "Ciencias exactas") (descripcion "Calculo, razonamiento numerico y logica de bajo nivel")))
 )
 
 (defrule predileccion_ciencias_exactas_2 ""
@@ -1264,3 +1265,47 @@
         (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
 )
 
+;----------------------------------------------DISPARADOR DE ORIENTACIONES----------------------------------------------
+
+(defrule orientacion_desarrollo ""
+        (exists (rama (nombre "Desarrollo de Software")))
+        =>
+        (printout t "Su rama predilecta es: Desarrollo de Software" crlf)
+)
+
+(defrule orientacion_ciencias_exactas ""
+        (exists (rama (nombre "Ciencias exactas")))
+        =>
+        (printout t "Su rama predilecta es: Ciencias exactas" crlf)
+)
+
+(defrule orientacion_hardware ""
+        (exists (rama (nombre "Hardware")))
+        =>
+        (printout t "Su rama predilecta es: Hardware" crlf)
+)
+
+(defrule orientacion_bases_de_datos ""
+        (exists (rama (nombre "Bases de Datos")))
+        =>
+        (printout t "Su rama predilecta es: Bases de Datos" crlf)
+)
+
+(defrule orientacion_inteligencia_artificial ""
+        (exists (rama (nombre "Inteligencia artificial")))
+        =>
+        (printout t "Su rama predilecta es: Inteligencia artificial" crlf)
+)
+
+(defrule orientacion_gestion ""
+        (exists (rama (nombre "Gestion de proyectos")))
+        =>
+        (printout t "Su rama predilecta es: Gestion de proyectos" crlf)
+)
+
+(defrule orientacion_inconclusa ""
+        (exists (materia))
+        (not (rama))
+        =>
+        (printout t "No posee una inclinacion bien definida respecto a una rama" crlf)
+)
