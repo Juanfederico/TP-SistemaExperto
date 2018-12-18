@@ -581,7 +581,7 @@
 (defrule predileccion_ciencias_exactas_26 ""
         (exists (materia (nombre "Matematica 1")))
         (exists (materia (nombre "Arquitectura de computadoras")))
-        (exists (materia (nombre "Introduccion a las bases de datos")))
+        (exists (materia (nombre "Introduccion a las Bases de Datos")))
         (exists (materia (nombre "Probabilidad y estadistica")))
         (exists (materia (nombre "Matematica discreta")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
@@ -832,17 +832,17 @@
 ;----------------------------------------------BASES DE DATOS----------------------------------------------
 
 (defrule predileccion_bases_de_datos_1 ""
-        (exists (materia (nombre "Introduccion a las bases de datos")))
-        (exists (materia (nombre "Bases de datos 1")))
-        (exists (materia (nombre "Bases de datos 2")))
+        (exists (materia (nombre "Introduccion a las Bases de Datos")))
+        (exists (materia (nombre "Bases de Datos 1")))
+        (exists (materia (nombre "Bases de Datos 2")))
         =>
         (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
 )
 
 (defrule predileccion_bases_de_datos_2 ""
-        (exists (materia (nombre "Introduccion a las bases de datos")))
+        (exists (materia (nombre "Introduccion a las Bases de Datos")))
         (exists (materia (nombre "Orientacion a objetos 2")))
-        (exists (materia (nombre "Bases de datos 2")))
+        (exists (materia (nombre "Bases de Datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
         (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
@@ -850,8 +850,8 @@
 
 (defrule predileccion_bases_de_datos_3 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
-        (exists (materia (nombre "Bases de datos 1")))
-        (exists (materia (nombre "Bases de datos 2")))
+        (exists (materia (nombre "Bases de Datos 1")))
+        (exists (materia (nombre "Bases de Datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
         (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
@@ -859,8 +859,8 @@
 
 (defrule predileccion_bases_de_datos_4 ""
         (exists (materia (nombre "Algoritmos y estructuras de datos")))
-        (exists (materia (nombre "Bases de datos 1")))
-        (exists (materia (nombre "Bases de datos 2")))
+        (exists (materia (nombre "Bases de Datos 1")))
+        (exists (materia (nombre "Bases de Datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
         (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
@@ -868,8 +868,8 @@
 
 (defrule predileccion_bases_de_datos_5 ""
         (exists (materia (nombre "Matematica 3")))
-        (exists (materia (nombre "Bases de datos 1")))
-        (exists (materia (nombre "Bases de datos 2")))
+        (exists (materia (nombre "Bases de Datos 1")))
+        (exists (materia (nombre "Bases de Datos 2")))
         (exists (materia (nombre "Explotacion de informacion")))
         =>
         (assert (rama (numero 4) (nombre "Bases de Datos") (descripcion "Analisis, almacenamiento y tratamiento de los datos en los sistemas")))
@@ -985,7 +985,7 @@
 (defrule predileccion_gestion_10 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Prueba de Software")))
         =>
@@ -1038,7 +1038,7 @@
 (defrule predileccion_gestion_15 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
@@ -1049,7 +1049,7 @@
 (defrule predileccion_gestion_16 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
@@ -1060,7 +1060,7 @@
 (defrule predileccion_gestion_17 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Ingenieria de Software 3")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
@@ -1071,7 +1071,7 @@
 (defrule predileccion_gestion_18 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Desarrollo de Software en sistemas distribuidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
@@ -1082,7 +1082,7 @@
 (defrule predileccion_gestion_19 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Fundamentos de teoria de la computacion")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
@@ -1093,7 +1093,7 @@
 (defrule predileccion_gestion_20 ""
         (exists (materia (nombre "Ingenieria de Software 1")))
         (exists (materia (nombre "Ingenieria de Software 2")))
-        (exists (materia (nombre "Bases de datos 1")))
+        (exists (materia (nombre "Bases de Datos 1")))
         (exists (materia (nombre "Espacios virtuales de trabajo colaborativo")))
         (exists (materia (nombre "Sistemas embebidos")))
         (exists (materia (nombre "Ingenieria de Software empirica")))
